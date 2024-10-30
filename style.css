@@ -1,6 +1,6 @@
 body  {
     color: white;
-    background: rgb(5, 54, 9);
+    background: rgb(165, 49, 175);
     margin: 0px;
     font-family: "Roboto", sans-serif;
 }
@@ -10,10 +10,10 @@ header{
     border-bottom: solid 2px rgb(0, 0, 0);
     padding: 20px;
     font-size: 30px;
-    color: rgb(252, 248, 248);
+    color: rgb(200, 94, 214);
 }
 section{
-    background: rgb(40, 117, 29);
+    background: rgb(122, 30, 115);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
@@ -26,4 +26,19 @@ section{
 h1{
     font-size: 100%;
 }
+p{
+    font-size: 20px;
+}
+img{
+    height: 100px;
+}
+.categoria-videos{
+    display: flex;
+    overflow: auto;
+    gap: 20px;
+} 
 
+section{
+    padding-left: 20px;
+    padding-right: 20px;
+}
